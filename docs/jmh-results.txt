@@ -1,0 +1,17 @@
+Benchmark                              (nodes)  Mode  Cnt     Score      Error  Units
+JmhBenchmarks.decodeEvent                  N/A  avgt    3  4327.179 ± 1477.688  ns/op
+JmhBenchmarks.encodeEventWithState         N/A  avgt    3  1411.304 ±   65.890  ns/op
+JmhBenchmarks.encodeEventWithoutState      N/A  avgt    3   991.371 ±   26.698  ns/op
+JmhBenchmarks.identityKeyedDecision        N/A  avgt    3    17.484 ±    2.930  ns/op
+JmhBenchmarks.ownRandomGenerator           N/A  avgt    3     1.949 ±    0.152  ns/op
+JmhBenchmarks.stateDigest                  N/A  avgt    3   475.918 ±    9.772  ns/op
+JmhBenchmarks.vectorLocalEvent               3  avgt    3    49.899 ±   16.784  ns/op
+JmhBenchmarks.vectorLocalEvent              10  avgt    3    68.419 ±   30.256  ns/op
+JmhBenchmarks.vectorLocalEvent              20  avgt    3    79.697 ±    3.182  ns/op
+JmhBenchmarks.vectorLocalEvent              50  avgt    3   173.577 ±    8.426  ns/op
+JmhBenchmarks.vectorLocalEvent             100  avgt    3   344.397 ±   28.582  ns/op
+JmhBenchmarks.vectorReceive                  3  avgt    3    77.005 ±  318.548  ns/op
+JmhBenchmarks.vectorReceive                 10  avgt    3   148.458 ±   57.344  ns/op
+JmhBenchmarks.vectorReceive                 20  avgt    3    97.845 ±    6.127  ns/op
+JmhBenchmarks.vectorReceive                 50  avgt    3   205.763 ±    8.182  ns/op
+JmhBenchmarks.vectorReceive                100  avgt    3   436.364 ±  149.132  ns/op
